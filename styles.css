@@ -1,0 +1,615 @@
+body{
+    margin: 0px;
+    border: 0px;
+}
+
+.clr{
+    clear:both;
+}
+
+.main-nav-bar{
+    padding-bottom: 7px;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);    
+}
+
+.main-nav-bar img{
+    position: relative;
+    top:5px;
+    left:150px;
+    width: 100px;
+    height: 30px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+.main-nav-bar li{
+    position: relative;
+    left: 155px;
+    height: 30px;
+    display: inline;
+    padding: 7px 12px;
+    border-right: 1px solid rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.main-nav-bar input{
+    padding: 4px;
+    background-color: rgb(221, 215, 215);
+    border:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);  
+}
+
+.main-nav-bar a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+#input{
+    margin: 3px 0px;
+    background-color: rgb(221, 215, 215); 
+}
+
+#signin{
+    padding-right: 100px;
+    padding-left: 0px;
+}
+
+#signin:hover{
+    border-bottom: 4px solid rgb(4, 51, 128);
+}
+
+#CBBC:hover{
+    border-bottom: 4px solid rgb(44, 209, 44);
+}
+
+#iPlayer:hover{
+    border-bottom: 4px solid mediumvioletred;
+}
+
+#newsround:hover{
+    border-bottom: 4px solid #561BAA;
+}
+
+.border:hover{
+    border-bottom: 4px solid rgb(51, 51, 51);
+}
+
+#limore{
+    padding-right: 60px;
+}
+
+.second-nav-bar{
+    height: 116px;
+}
+
+#logo-cbbc{
+    position: relative;
+     top:20px;
+     left:150px;
+    height: 100px;
+    width: 90px;
+}
+
+.second-nav-bar a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.second-nav-bar li{
+    position: relative;
+    left:200px; 
+    display: inline-block;
+    padding: 20px 40px;
+    border-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    text-align: center;    
+}
+
+.second-nav-bar p{
+    margin:0px;
+    padding-top: 15px;
+    padding-bottom: 5px;   
+}
+
+#tv{
+    color: rgb(44, 209, 44);
+    font-size: 30px;
+}
+
+#litv:hover{
+    background-color: #f4f4f4;
+    border-bottom: 4px solid rgb(44, 209, 44);
+}
+
+#game{
+    font-size: 30px;
+    color: rgb(230, 20, 37);
+}
+
+#ligame:hover{
+    background-color: #f4f4f4;
+    border-bottom: 4px solid rgb(230, 20, 37);
+}
+
+#quizzes{
+    font-size: 30px;
+    color:#58036d6e;
+}
+
+#liquizzes:hover{
+    background-color: #f4f4f4;
+    border-bottom: 4px solid #58036d6e;
+}
+
+#watch{
+    font-size: 30px;
+    color:rgb(221, 49, 135)
+}
+
+#liwatch:hover{
+    background-color: #f4f4f4;
+    border-bottom: 4px solid rgb(221, 49, 135);
+}
+
+#joinin{
+    font-size: 30px;
+    color:rgb(34, 216, 161)
+}
+
+#lijoinin:hover{
+    background-color: #f4f4f4;
+    border-bottom: 4px solid rgb(34, 216, 161);
+}
+
+#puzzles{
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+}
+
+#lipuzzles:hover{
+    background-color: #f4f4f4;
+    border-bottom: 4px solid rgb(255, 115, 0);
+}
+
+#nrlogo{
+    width: 30px;
+    height: 30px;
+}
+
+#linrlogo{
+    background-color: #f4f4f4;
+    border-bottom: 4px solid #22d8d0;
+}
+
+#header-img{
+    height: 145px;
+    margin: 0px;
+    border:0px;
+    background-image: url("newsround2.jpg");
+    background-repeat: no-repeat;  
+}
+
+#header-img p{
+    position: relative;
+    top:43px;
+    left: 998px;
+    height: 25px;
+    width: 195px;
+    padding: 12px 8px;
+    background-color: rgb(34, 216, 208);
+    border-bottom: 2px solid rgb(27, 172, 166);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(53, 56, 102);
+    text-align: center;     
+}
+
+#header-img p:hover{
+    background-color: rgb(25, 231, 231);
+    text-decoration: underline;    
+    transform: scaleY(0.95);
+    color: rgb(34, 216, 208);
+}
+
+#header-img a{
+    text-decoration: none;
+    color:rgb(53, 56, 102)
+}
+
+#title{
+    display: block;
+    width: 700px;
+    margin:auto;
+    margin-left:260px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    float: left;    
+}
+
+#comments{
+    position: relative;
+    left: 20px;
+    width: 206px;
+    height: 25px;
+    padding: 12px;
+    border-radius: 5px;
+    border-bottom: 2px solid #0097ae;
+    float: left;
+    background-color: #00c3e1;  
+    color: rgb(1, 22, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#comments:hover{
+    background-color: rgb(25, 231, 231);
+    text-decoration: underline;    
+    transform: scaleY(0.95);
+}
+
+#date{
+    margin: auto;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#main-div{
+    background-color: #e6e6e6;
+}
+
+#main-div figure{
+    margin-bottom: 1px;
+}
+
+#img1 {
+    border-top: 8px #561BAA solid;
+    margin:auto;
+}
+
+.main-img{
+    display: block;
+    margin: auto;
+}
+
+.bold-text{
+    width: 800px;
+    margin:auto;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.main-text{
+    width: 800px;
+    margin:auto;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.main-text li{
+    margin: 25px;
+    margin-left: 0px;
+}
+
+.word-bold {
+    color:#011638;
+    font-weight: bold;
+}
+
+.word-bold:hover{
+    color:mediumvioletred;
+}
+
+.box-info{
+    display:block;
+    width: 768px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 1px;
+    padding: 16px;
+    background-color: #f4f4f4;
+    border: 1px solid #22d8d0;
+    /*border-bottom: 8px solid #22d8d0;*/
+}
+
+.blueline{
+    display: block;
+    height: 8px;
+    width: 784px;
+    margin: auto;
+    margin-bottom:16px;
+    border-top:1px;
+    box-sizing: border-box;
+    background-color: #22d8d0;
+}
+
+.box-info h2{
+    font-family: Verdana, Helvetica, sans-serif;
+    color:#561BAA;
+    font-weight:800;
+}
+
+.box-info a{
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-info p{
+    margin: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.box-info li{
+    margin: 16px;
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Helvetica, sans-serif;   
+}
+
+.box-info ul{
+    padding-inline-start: 25px;
+}
+
+.box-info p{
+    margin-left: 0px;
+}
+
+
+.box-info a:hover{
+    color:#561BAA;
+}
+
+.fig{
+    width: 768px;
+    margin:auto;
+    margin-bottom: 0px;
+    padding: 16px;
+    background-color: #561BAA;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;    
+}
+
+#appointment{
+    color: #561BAA;
+}
+
+#oblique {
+    font-style: oblique;
+}
+
+.line{ 
+    position: relative;
+    left: 550px;
+    width: 250px;
+    height: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #22d8d0;
+}
+
+.more{
+    padding-top: 25px;
+    background-color: #561BAA;
+}
+
+.more h2{
+    margin:auto;
+    margin-top: 0px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    font-style: oblique;
+    font-weight: 1000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.more figure{
+    display: block;
+    float:left;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+#more-img{
+    margin: 0px 100px;
+}
+
+#more-img img{
+    display: block;
+    width: 332px;
+    margin:auto;
+}
+
+#more-img figure{
+    transition: 0.3s ease-in-out 0.1s;
+}
+
+#more-img figure:hover{
+    transform: scale(0.9); 
+}
+
+.more figcaption{
+    height: 100px;
+    width: 300px;
+    margin:auto;
+    margin-top: 0px;
+    padding:16px;
+    background-color: #22d8d0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(53, 56, 102);
+}
+
+.more figcaption:hover{
+    background-color: white;
+}
+
+#home {  
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: #22d8d0;
+    text-align: center;
+}
+
+#home img{
+    padding-top: 20px;
+}
+
+#home p{
+    width: 345px;
+    padding: 16px 0px 16px 0px;
+    margin: auto;
+    margin-top: 5px;
+    border-bottom: 5px solid rgb(64, 20, 126);
+    border-radius: 5px;    
+    background-color: #561BAA;
+}
+
+#home a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#home p:hover{
+    background-color: #6c22d6;
+    text-decoration: underline;    
+    transform: scaleY(0.95);
+}
+
+footer{
+    background-color: rgb(76, 76, 76);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+footer h2{
+    width: 1100px;
+    margin: auto;
+    margin-top:0px;
+    padding: 30px;
+}
+
+footer p{
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#foot1{
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#foot1 li{
+    display: inline;
+    width: 1100px;
+    padding: 10px;
+    padding-right: 60px;
+    border-top: 20px;
+    border-bottom: 20px;
+    border-right: 1px solid #949494;
+    font-weight: bold;
+    text-align: center;
+}
+
+#foot1 a:hover{
+    text-decoration: underline;
+}
+
+#foot2{
+    width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #949494;
+}
+
+#foot2 li{
+    display: inline;
+    padding-right: 10px;
+    border: 10px;
+    line-height: 35px;
+}
+
+#foot2 a:hover{
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#lastlink{
+    font-weight: bold;
+}
+
+#lastlink:hover{
+    text-decoration: underline;
+}
+
+/*selectores agregados para la noticia de la semana 1*/
+
+#title2{
+    width: 800px;
+    margin: auto;
+    padding-bottom: 15px;
+    font-family: Verdana, Helvetica, sans-serif;
+    color:#561BAA;
+    font-weight:800;
+}
+
+#main-img2{
+    width: 800px;
+}
+
+#firsttext{
+    padding-top: 10px;
+}
+
+#lasttext{
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+}
